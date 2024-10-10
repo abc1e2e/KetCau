@@ -1,0 +1,519 @@
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-BlackItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-MediumItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-SemiBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto; /* Căn giữa nội dung */
+}
+.bg-footer{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/images/img_bg_3.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 228px; 
+    width: 100%;
+}
+.p_footer{
+    color: white;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+}
+.p_footer span {
+    font-weight: 700;
+}
+
+.p_footer_2{
+    color: white;
+    font-size: 18px;
+    font-family: Inter Display;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word
+}
+.flex-footer{
+    display: flex;
+    /* align-items: center; */
+    gap:10px;
+    padding: 20px;
+    border-right: 1px white solid;
+}
+.padding-top-footer{
+    padding: 20px;
+}
+
+.flex-footer-2{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.ul-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-footer-3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.mt-5{
+    margin-top: 20px;
+}
+.btn_fooder{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #2674bb, #2164a1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:white;
+
+}
+.ml-6{
+    margin-left: 25px;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.container-header{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto; /* Căn giữa nội dung */
+}
+.horizontal-menu {
+    list-style-type: none; /* Xóa dấu chấm trước các phần tử li */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex; /* Sử dụng flexbox để sắp xếp các phần tử theo hàng ngang */
+    background-color: white; /* Màu nền cho menu */
+}
+
+.horizontal-menu li {
+    padding: 14px 20px;
+}
+.lin-h {
+    align-self: stretch;
+    position: relative;
+    background-color: #38383d;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.link_header {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.link_header:hover {
+   color: #2674BB; /* Màu nền khi hover vào các mục menu */
+}
+.menu-toggle {
+    display: none;
+    background: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 20px;
+}
+.btn_contact{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #2674bb, #2164a1);
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.mb-20{
+    margin-bottom: 80px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0079BB;
+    color: #fff;
+    border-color: #0079BB;
+    cursor: default;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #ebebf0;
+}
+.iconlyregularboldcall {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.tlsthanglongsteelvn {
+    position: relative;
+    line-height: 14px;
+}
+.iconlyregularboldmessage {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.tlsthanglongsteelvn {
+    position: relative;
+    line-height: 14px;
+}
+.ting-vit{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.ting-vit p{
+    color: white;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word
+}
+.lin-h-item{
+    padding-right: 10px;
+}
+.img_header_sp{
+    display: none;
+}
+.footer_copyright{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.footer_copyright_ul{
+    display: flex;
+    gap: 25px;
+}
+/* .horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+} */
+
+.horizontal-menu > li {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/* .horizontal-menu .link_header {
+    text-decoration: none;
+    color: #333;
+} */
+/* Reset default dropdown styles */
+.dropdown-menu {
+    display: none; /* Changed from visibility: hidden */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 8px 0;
+    z-index: 1000;
+    margin: 0;
+    list-style: none;
+}
+
+/* Important: Show dropdown on hover */
+.horizontal-menu > li:hover > .dropdown-menu {
+    display: block; /* Changed from visibility: visible */
+}
+
+.dropdown-item {
+    padding: 10px 16px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* Add dropdown indicator */
+.horizontal-menu > li:has(.dropdown-menu) {
+    padding-right: 25px;
+}
+
+.horizontal-menu > li:has(.dropdown-menu)::after {
+    content: '▼';
+    font-size: 10px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn_contact {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.btn_contact:hover {
+    background-color: #0056b3;
+}
+
+.img_header_sp_li img {
+    max-height: 40px;
+    width: auto;
+}
+@media (max-width: 768px) {
+    .flex-footer{
+        border-bottom: 1px white solid;
+    }
+    .ul-footer{
+        display: none;
+    }
+    .footer_copyright_ul{
+        display: none;
+    }
+    .footer_copyright{
+        justify-content: center;
+    }
+    .bg-footer{
+        height: auto;
+    }
+    .sp_footer {
+        margin-left: 10px;
+    }
+    .ml-6{
+        margin-left:10px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto; /* Căn giữa nội dung */
+    }
+    .grid-footer {
+        display: block;
+    }
+    .mb-20{
+        margin-bottom: 15px;
+    }
+    .horizontal-menu.show {
+        display: flex;
+    }
+    .horizontal-menu {
+        display: none;
+        flex-direction: column; /* Sắp xếp theo chiều dọc khi hiển thị menu */
+    }
+    .img_header_sp{
+        display: block;
+    }
+    .img_header_sp_li{
+        display: none;
+    }
+    .flex-header-sp{
+        display: flex;
+        justify-content: space-between;
+    }
+    .lin-h {
+        display: none;
+    }
+    .flex-footer-3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .flex-footer-3 img{
+        width: 32px;
+        height: 32px;
+    }
+}

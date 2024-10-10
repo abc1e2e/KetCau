@@ -1,0 +1,322 @@
+.about_bg_1{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/img_about/img_bg_1.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 642px;
+    width: 100%;
+
+}
+.about_header{
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.p_bg_1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 700;
+    line-height: 0px;
+    word-wrap: break-word;
+}
+.p_bg_2{
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.about_div_2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about_div_2 h2{
+    color: #0079BB;
+    font-size: 24px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.about_div_2 p {
+        color: #141417;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.about_bg_3{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/img_about/img_bg_3.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 458px;
+    width: 100%;
+
+}
+.about_bg_3_h2 p{
+    color: #141417;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.image-container{
+    padding-bottom: 50px;
+    display: grid; /* Căn chỉnh nội dung để phù hợp với kích thước hình ảnh */
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px
+
+}
+.image-container-1{
+    width: 100%; /* Đặt chiều rộng của ảnh là 100% container */
+    height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ khi thay đổi kích thước */
+    position: relative; /* Đặt vị trí tương đối cho container */
+    display: inline-block; 
+}
+.text-overlay-footer{
+    position: absolute; /* Đặt vị trí tuyệt đối để chồng lên hình ảnh */
+    right:10px;
+    bottom:0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word
+}
+.text-overlay-header{
+    position: absolute; /* Đặt vị trí tuyệt đối để chồng lên hình ảnh */
+    left:10px;
+    top:0;
+    color: white;
+    font-size: 45px;
+    font-family: 'Inter Display', sans-serif;;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 0px;
+    letter-spacing: 1.28px;
+    word-wrap: break-word
+}
+.about-h2{
+    color: #0079BB;
+    font-size: 24px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.about_content{
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+.about_button {
+    display: flex;
+    justify-content: center;
+}
+.about_button button{
+    background: rgba(255, 255, 255, 0.30);
+    /* background-color: #de761f; */
+    /* margin: 0 auto; */
+    color: white;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.flex_section_2{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+.flex_section_2 h2{
+    color: #0079BB;
+    font-size: 80px;
+    font-family: Inter Display;
+    font-weight: 700;
+    line-height: 0px;
+    word-wrap: break-word
+}
+.flex_section_2 p{
+    color: #141417;
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 500;
+    line-height: 0px;
+    word-wrap: break-word
+}
+.p_chungtoi{
+    color: #E4873F;
+    font-size: 18px;
+    font-family: Inter Display;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.p_congty{
+    color: #38383D;
+    font-size: 24px;
+    font-family: Inter Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.p_introduce{
+    color: #64646D;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word
+}
+.t_center{
+    text-align: center;
+}
+.grid-img_about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%; /* Đảm bảo không bị tràn màn hình */
+}
+.grid-img_about img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ không gian cột */
+    height: auto; /* Giữ tỷ lệ ảnh */
+}
+.img_about_relative{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.p_img_1{
+    position: absolute;
+  top: 50%;       /* Căn giữa theo chiều dọc */
+  left: 50%;      /* Căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* Dịch chuyển để căn giữa hoàn toàn */
+
+  color: white;
+    font-size: 24px;
+    font-family: Inter Display;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+.p_img_2{
+    position: absolute;
+  bottom: 0;       /* Căn giữa theo chiều dọc */
+  left: 50%;      /* Căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* Dịch chuyển để căn giữa hoàn toàn */
+  color: white;
+  font-size: 14px;
+  font-family: Inter Display;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+.img_about_footer{
+    display: flex;
+    justify-content: center;
+}
+.img_about_footer div img{
+    width: 100%;
+}
+.img_about_footer div{
+    width: 100%;
+}
+.about_bg_3_h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.grid-section img{
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .about_bg_1{
+        height: 500px;
+    }
+    .p_bg_1{
+        font-size: 30px;
+    }
+    .about_bg_3_h2{
+        padding-top: 0;
+    }
+    .about_bg_3{
+        height: auto;
+    }
+    .img_about_footer{
+        flex-wrap: wrap;
+        padding-left: 20%;
+    }
+    .img_about_footer div{
+        width: 50%;
+    }
+    .img_about_footer div img{
+        width: calc(50% - 10px); /* Mỗi hình ảnh chiếm 50% chiều rộng trừ khoảng cách giữa các ảnh */
+        height: auto; /* Đảm bảo giữ tỷ lệ của ảnh */
+    }
+    .grid-img_about{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .p_img_1{
+        font-size: 14px;
+    }
+    .p_img_2{
+        font-size: 12px;
+    }
+    .p_chungtoi{
+        text-align: center;
+    }
+    .p_congty{
+        text-align: center;
+        font-size: 22px;
+    }
+    .contact_position_1{
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    form{
+        width: auto;
+    }
+    .image-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image-container-1 img {
+        width: 100%; /* Thu nhỏ hình ảnh để phù hợp hơn với màn hình nhỏ */
+        height: auto;
+        margin: 0 auto; /* Canh giữa hình ảnh */
+    }
+    .grid-section{
+        display: block;
+    }
+
+
+    .sp_footer{
+        margin-left: 20px;
+    }
+}

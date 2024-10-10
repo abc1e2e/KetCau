@@ -1,0 +1,92 @@
+.question_bg_1{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/img_about/img_bg_1.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+.about_header{
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.p_bg_1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 700;
+    line-height: 0px;
+    word-wrap: break-word;
+}
+.p_bg_2{
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+.question_h2{
+    color: white;
+    font-size: 48px;
+    font-family: Inter Display;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 56px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+.container_question{
+    width: 759px;
+    margin: 0 auto;
+}
+.p_introduce{
+    color: #64646D;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word
+}
+.question_cs{
+    color: #38383D;
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_ol {
+    color: #38383D;
+
+    color: #38383D;
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 700;
+    line-height: 24px;
+word-wrap: break-word;  
+    padding-left: 0px; /* Căn chỉnh lề trái cho danh sách */
+}
+.question_cs img{
+    width: 16px;
+    height: 16px;
+}
+@media (max-width: 768px) {
+    .container_question{
+        width: 100%;
+    }
+    .menu_ol {
+        /* Đảm bảo không có thuộc tính nào làm mất số thứ tự */
+        list-style-type: decimal; 
+    }
+    .p_bg_1{
+        font-size: 30px;
+    }
+}

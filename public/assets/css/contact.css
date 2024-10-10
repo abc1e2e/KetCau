@@ -1,0 +1,192 @@
+.contact_bg_1{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/img_about/img_bg_1.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+.about_header{
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.p_bg_1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 700;
+    line-height: 0px;
+    word-wrap: break-word;
+}
+.p_bg_2{
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+.about_div_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+.about_div_2 .h2_first{
+    color: #0079BB;
+    font-size: 24px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.about_div_2 .p_first {
+        color: #141417;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.contact_bg_1 .p_contact{
+    color: white;
+    font-size: 18px;
+    font-family: Inter Display;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.contact_h2{
+    color: white;
+    font-size: 28px;
+    font-family: Inter Display;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 56px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+.container_contact{
+    width: 759px;
+    margin: 0 auto;
+}
+.p_introduce{
+    color: #64646D;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word
+}
+.contact_cs{
+    color: #38383D;
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu_ol {
+    color: #38383D;
+
+    color: #38383D;
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 700;
+    line-height: 24px;
+word-wrap: break-word;  
+    padding-left: 0px; /* Căn chỉnh lề trái cho danh sách */
+}
+.contact_cs img{
+    width: 16px;
+    height: 16px;
+}
+form{
+    width: 545px;
+    margin-bottom: 50px;
+}
+form input[type="text"], form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D8D8DD;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form input[type="submit"] {
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0079BB;
+    font-size: 16px;
+}
+form div {
+    margin-bottom: 15px;
+}
+input[type="text"]::placeholder {
+    color: #6B6B7C; /* Màu đỏ cho placeholder trong trường văn bản */
+}
+
+textarea::placeholder {
+    color: #6B6B7C; /* Màu xanh lá cho placeholder trong textarea */
+}
+@media (max-width: 768px) {
+    .about_div_2{
+        display: block;
+    }
+    .container_contact{
+        width: 100%;
+    }
+    .menu_ol {
+        /* Đảm bảo không có thuộc tính nào làm mất số thứ tự */
+        list-style-type: decimal; 
+    }
+    form{   
+        width: 100%;
+    }
+    /* input, textarea {
+        box-sizing: border-box; 
+        width: 100%; 
+    } */
+    .contact_bg_1 .container{
+        align-items: normal;
+    }
+    .contact_h2{
+        color: white;
+    font-size: 24px;
+    font-family: Inter Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+    }
+    .container .p_contact{
+        color: white;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18px;
+    word-wrap: break-word
+    }
+    .p_bg_1{
+        font-size: 30px;
+    }
+}

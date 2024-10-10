@@ -1,0 +1,79 @@
+{
+  "resources/contact_img/contact_img_bg_1.png": {
+    "file": "assets/contact_img_bg_1-eKZ4pdKI.png",
+    "src": "resources/contact_img/contact_img_bg_1.png"
+  },
+  "resources/css/admin.css": {
+    "file": "assets/admin-nIcZJK6F.css",
+    "src": "resources/css/admin.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Be9g5a8i.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/category.css": {
+    "file": "assets/category-CKdcLgpk.css",
+    "src": "resources/css/category.css",
+    "isEntry": true
+  },
+  "resources/css/contact.css": {
+    "file": "assets/contact-Cm3njkdV.css",
+    "src": "resources/css/contact.css",
+    "isEntry": true
+  },
+  "resources/css/home.css": {
+    "file": "assets/home-w_sLlVcv.css",
+    "src": "resources/css/home.css",
+    "isEntry": true
+  },
+  "resources/css/new.css": {
+    "file": "assets/new-BdUPdQGu.css",
+    "src": "resources/css/new.css",
+    "isEntry": true
+  },
+  "resources/css/post.css": {
+    "file": "assets/post-CbtwQIwl.css",
+    "src": "resources/css/post.css",
+    "isEntry": true
+  },
+  "resources/css/product.css": {
+    "file": "assets/product-CZHmrJn3.css",
+    "src": "resources/css/product.css",
+    "isEntry": true
+  },
+  "resources/css/project.css": {
+    "file": "assets/project-Cn9aC1yq.css",
+    "src": "resources/css/project.css",
+    "isEntry": true
+  },
+  "resources/css/question.css": {
+    "file": "assets/question-BQpdw7oO.css",
+    "src": "resources/css/question.css",
+    "isEntry": true
+  },
+  "resources/css/style.css": {
+    "file": "assets/style-2U3hAns9.css",
+    "src": "resources/css/style.css",
+    "isEntry": true
+  },
+  "resources/img_home/home_page_img_bg_2.png": {
+    "file": "assets/home_page_img_bg_2-CCEiEGMB.png",
+    "src": "resources/img_home/home_page_img_bg_2.png"
+  },
+  "resources/img_private_policy/privacy_policy_img_bg_1.png": {
+    "file": "assets/project_img_bg_1-DlWPFvuk.png",
+    "src": "resources/project_img/project_img_bg_1.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DLXkxiZ3.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/project_img/project_img_bg_1.png": {
+    "file": "assets/project_img_bg_1-DlWPFvuk.png",
+    "src": "resources/project_img/project_img_bg_1.png"
+  }
+}

@@ -1,0 +1,217 @@
+.product_bg_1{
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url("/img_about/img_bg_1.png"); /* Đặt hình ảnh nền */
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+.about_header{
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.about_div_2 .h2_first{
+    color: #0079BB;
+    font-size: 24px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.about_div_2 .p_first {
+        color: #141417;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.about_div_2 .img_1{
+    width: 100%;
+}
+.p_bg_1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 700;
+    line-height: 0px;
+    word-wrap: break-word;
+}
+.p_new_1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #38383D;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word
+}
+.p_bg_2{
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.product_h2{
+    color: white;
+    font-size: 48px;
+    font-family: Inter Display;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* line-height: 56px; */
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+.product_grid_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.project_img{
+    position: relative;
+}
+.project_img img{
+    width: 100%;
+    height: 270px;
+}
+.project_img p{
+    color: #202029;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.flex-detail{
+    display: flex;
+    gap: 35px;
+
+}
+
+.container-detail{
+    width: 650px;   
+}
+.container-detail .img_1{
+    width: 100%;
+    height: 495px;
+}
+.content-detail{
+    color: #64646D;
+    font-size: 14px;
+    font-family: Inter Display;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+
+}
+.slider_bar{
+    height: 455px;
+    width: 369px;
+    background-color: #fbead8;
+    padding: 20px;
+}
+.flex-detail-sliderbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu_ol {
+    color: #38383D;
+    list-style-position: inside;
+    color: #38383D;
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;  
+    padding-left: 0px; /* Căn chỉnh lề trái cho danh sách */
+}
+.steelhome_text{
+    color: #141417;
+font-size: 16px;
+font-family: 'Inter Display', sans-serif;
+font-weight: 500;
+line-height: 24px;
+word-wrap: break-word
+}
+.h2_first_product{
+    color: #0079BB;
+    font-size: 24px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.flex_material{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select_material_1{
+    width: 250px;
+    height: 50px;
+}
+.img_material_1{
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+}
+.input_material_1{
+    height: 44px;
+    width: 250px;
+}
+.flex_material_1{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.flex_material_2{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .project_img img{
+        height: auto;
+    }
+    .container-detail{
+        width: 100%;
+    }
+    .flex-detail{
+        display: block;
+    }
+    .slider_bar{
+        width: auto;
+        height: 350px;
+        margin: 10px;
+    }
+    .container-detail .img_1{
+        height: auto;
+    }
+    .p_bg_1{
+        font-size: 30px;
+    }
+    .flex_material{
+        display: block;
+    }
+    .product_grid_img{
+        grid-template-columns: 1fr 1fr;
+    }
+    .input_material_1{
+        width: 100%;
+    }
+    .flex_material_2{
+        display: block;
+    }
+}
